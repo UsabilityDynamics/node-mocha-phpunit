@@ -17,8 +17,7 @@ node_mocha_phpunit.awesome(); // "awesome"
 
 ```
 unlink phpunit-log.json
-phpunit --coverage-clover php-coverage.xml --log-json phpunit-log.json --testsuite Pets --configuration test/fixtures/phpunit.xml
-phpunit --coverage-clover php-coverage.xml --log-junit phpunit-log.xml --testsuite Pets --configuration test/fixtures/phpunit.xml
+phpunit --coverage-clover php-coverage.xml --log-junit phpunit-log.xml --testsuite Pets --configuration test/fixtures/simple/phpunit.xml
 ```
 
 ### License

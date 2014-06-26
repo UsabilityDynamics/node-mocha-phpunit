@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="" tests="2" assertions="4" failures="0" errors="0" time="0.000450">
+    <testsuite name="Dogs" tests="0" assertions="0" failures="0" errors="0" time="0.000000"/>
+    <testsuite name="Pets" tests="2" assertions="4" failures="0" errors="0" time="0.000450">
+      <testsuite name="catTest" file="/Users/potanin/Libraries/node-mocha-phpunit/test/fixtures/simple/catTest.php" tests="1" assertions="2" failures="0" errors="0" time="0.000364">
+        <testcase name="testMeow" class="catTest" file="/Users/potanin/Libraries/node-mocha-phpunit/test/fixtures/simple/catTest.php" line="16" assertions="2" time="0.000364"/>
+      </testsuite>
+      <testsuite name="dogTest" file="/Users/potanin/Libraries/node-mocha-phpunit/test/fixtures/simple/dogTest.php" tests="1" assertions="2" failures="0" errors="0" time="0.000086">
+        <testcase name="testBark" class="dogTest" file="/Users/potanin/Libraries/node-mocha-phpunit/test/fixtures/simple/dogTest.php" line="16" assertions="2" time="0.000086"/>
+      </testsuite>
+    </testsuite>
+  </testsuite>
+</testsuites>

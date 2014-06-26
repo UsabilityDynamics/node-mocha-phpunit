@@ -1,19 +1,11 @@
-module.exports = {  
-
-  'Has expected public methods.': function() {
-
-    var target = require( '../' );
-
-    target.should.have.property( 'define' );
-    target.should.have.property( 'create' );
-    target.should.have.property( 'version' );
-    target.should.have.property( 'prototype' );
-
-  },
-
-  'Can create actual test.': function() {
-
-
-  }
-
+/**
+ * Essential Tests
+ *
+ * @type {{Methods: exports, Utility: exports, Parse: exports, createSuite: exports}}
+ */
+module.exports = {
+  Methods: require( './unit/methods' ),
+  Utility: require( './unit/utility' ),
+  Parse: require( './unit/parse-junit' ),
+  createSuite: require( './functional/create-suite' )
 }
