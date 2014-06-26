@@ -12,7 +12,7 @@ module.exports = {
 
       result.should.have.properties( 'testSuites', 'coverage', 'artifacts' )
 
-      done();
+      done( error );
 
     });
 

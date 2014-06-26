@@ -27,3 +27,6 @@ ssl
 .idea
 nbproject
 .waterline
+
+.php-coverage.xml
+.phpunit-log.xml

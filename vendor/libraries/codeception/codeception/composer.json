@@ -1,0 +1,42 @@
+{
+    "name":"codeception/codeception",
+    "description":"BDD-style testing framework",
+    "keywords":["BDD", "acceptance testing", "functional testing", "unit testing", "tdd"],
+    "homepage":"http://codeception.com/",
+    "type":"library",
+    "license":"MIT",
+    "authors":[
+        {
+            "name":"Michael Bodnarchuk",
+            "email":"davert@mail.ua",
+            "homepage":"http://codegyre.com"
+        }
+    ],
+    "minimum-stability": "stable",
+
+    "require": {
+        "php": ">=5.4.0",
+        "phpunit/phpunit": "3.7.*",
+        "facebook/webdriver": "~0.3",
+        "fabpot/goutte": "*",
+        "monolog/monolog": "*",
+        "symfony/finder": "~2.3",
+        "symfony/console": "~2.3",
+        "symfony/event-dispatcher": "~2.3",
+        "symfony/yaml": "~2.3"
+    },
+    "require-dev": {
+        "facebook/php-sdk": "3.*",
+        "videlalvaro/php-amqplib": "*"
+    },
+    "suggest": {
+        "codeception/phpbuiltinserver": "Extension to start and stop PHP built-in web server for your tests"
+    },
+
+    "autoload":{
+        "psr-0":{
+            "Codeception":"src"
+        }
+    },
+    "bin":["codecept"]
+}
