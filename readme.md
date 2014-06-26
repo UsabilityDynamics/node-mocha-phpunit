@@ -12,6 +12,15 @@ var node_mocha_phpunit = require('node-mocha-phpunit');
 node_mocha_phpunit.awesome(); // "awesome"
 ```
 
+
+### Development
+
+```
+unlink phpunit-log.json
+phpunit --coverage-clover php-coverage.xml --log-json phpunit-log.json --testsuite Pets --configuration test/fixtures/phpunit.xml
+phpunit --coverage-clover php-coverage.xml --log-junit phpunit-log.xml --testsuite Pets --configuration test/fixtures/phpunit.xml
+```
+
 ### License
 
 (The MIT License)

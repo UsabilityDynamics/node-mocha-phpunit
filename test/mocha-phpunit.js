@@ -1,5 +1,19 @@
 module.exports = {  
-  'Valid project structure.': require( 'grunt-scaffold-module' ).testStructure(),
-  'Valid public methods.': require( 'grunt-scaffold-module' ).testMethods(),
-  'Valid public classess.': require( 'grunt-scaffold-module' ).testClasses()       
+
+  'Has expected public methods.': function() {
+
+    var target = require( '../' );
+
+    target.should.have.property( 'define' );
+    target.should.have.property( 'create' );
+    target.should.have.property( 'version' );
+    target.should.have.property( 'prototype' );
+
+  },
+
+  'Can create actual test.': function() {
+
+
+  }
+
 }

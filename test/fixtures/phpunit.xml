@@ -1,0 +1,16 @@
+<phpunit backupGlobals="false"
+         convertErrorsToExceptions="true"
+         processIsolation="false"
+         stopOnFailure="false"
+         syntaxCheck="true"
+         bootstrap="bootstrap.php"
+>
+  <testsuites>
+    <testsuite name="Dogs">
+      <directory>./</directory>
+    </testsuite>
+    <testsuite name="Pets">
+      <directory>./</directory>
+    </testsuite>
+  </testsuites>
+</phpunit>
