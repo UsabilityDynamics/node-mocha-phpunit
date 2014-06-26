@@ -35,11 +35,7 @@
     "codeception/codeception": "*"
   },
   "require-dev": {
-    "phpmd/phpmd": "master",
-    "squizlabs/php_codesniffer": "master",
-    "sebastian/phpcpd": "master",
-    "usabilitydynamics/lib-wp-phpunit": "master",
-    "codeclimate/php-test-reporter": "dev-master"
+    "usabilitydynamics/lib-wp-phpunit": "master"
   },
   "config": {
     "vendor-dir": "vendor/libraries",
