@@ -2,14 +2,10 @@ module.exports = {
 
   'Can create an instance.': function() {
 
+    this.config = require( './fixtures/options.json' );
     this.phpUnit = require( '../../' );
 
-    this.suite = this.phpUnit.create({
-      artifactPath: null,
-      testsuite: 'Pets',
-      configuration: 'test/fixtures/phpunit.xml',
-      includePath: ''
-    });
+    this.suite = this.phpUnit.create( this.config ).getTestSuite();
 
     this.suite.should.be.an.instanceOf( Object );
 

@@ -10,8 +10,16 @@ module.exports = {
     require( '../../' ).should.have.property( 'create' );
   },
 
+  'debug method is valid': function() {
+    require( '../../' ).should.have.property( 'debug' );
+  },
+
   'load method is valid': function() {
     require( '../../' ).should.have.property( 'load' );
+  },
+
+  'prototype.run method is valid': function() {
+    require( '../../' ).prototype.should.have.property( 'run' );
   }
 
 }

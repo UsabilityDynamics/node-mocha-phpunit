@@ -1,0 +1,6 @@
+{
+  "artifactPath": null,
+  "testsuite": "Pets",
+  "configuration": "test/functional/fixtures/simple/phpunit.xml",
+  "includePath": ""
+}

@@ -7,5 +7,6 @@ module.exports = {
   Methods: require( './unit/methods' ),
   Utility: require( './unit/utility' ),
   Parse: require( './unit/parse-junit' ),
-  createSuite: require( './functional/create-suite' )
+  createSuite: require( './functional/create-suite' ),
+  runSuite: require( './functional/run-suite' )
 }
