@@ -20,4 +20,4 @@
 {s} Suite Plugin - StyleTest, test StyleTest::testActions completed. 9 assertions: 0.018523ms
 {s} Suite Plugin - StyleTest, test StyleTest::testAsset completed. 12 assertions: 0.157249ms
 
-{f} PHPUnit tests failed. 16 tests, 70 assertions, 2 failures: 0.658092ms
+{f} <red>PHPUnit tests failed. 16 tests, 70 assertions, 2 failures: 0.658092ms</red>

@@ -18,4 +18,4 @@
 {s} Suite General - StyleTest, test StyleTest::testActions completed. 9 assertions: 0.018523ms
 {s} Suite General - StyleTest, test StyleTest::testAsset completed. 12 assertions: 0.157249ms
 
-{s} PHPUnit tests completed. 16 tests, 72 assertions: 0.648160ms
+{s} <green>PHPUnit tests completed. 16 tests, 72 assertions: 0.648160ms</green>
