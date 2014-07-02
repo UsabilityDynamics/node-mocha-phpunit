@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="General" tests="16" assertions="72" failures="0" errors="0" time="0.648160">
+    <testsuite name="BasicTest" file="D:\Development\Repositories\GIT\wp-amd\test\php\tests\basicTest.php" tests="3" assertions="4" failures="0" errors="0" time="0.081483">
+      <testcase name="testTrue" class="BasicTest" file="D:\Development\Repositories\GIT\wp-amd\test\php\tests\basicTest.php" line="32" assertions="1" time="0.015482"/>
+      <testcase name="testGlobals" class="BasicTest" file="D:\Development\Repositories\GIT\wp-amd\test\php\tests\basicTest.php" line="41" assertions="2" time="0.055203"/>
+      <testcase name="testGlobalsBar" class="BasicTest" file="D:\Development\Repositories\GIT\wp-amd\test\php\tests\basicTest.php" line="60" assertions="1" time="0.010798"/>
+    </testsuite>
+    <testsuite name="CoreTest" file="D:\Development\Repositories\GIT\wp-amd\test\php\tests\plugin\coreTest.php" tests="5" assertions="10" failures="0" errors="0" time="0.116093">
+      <testcase name="testGetWpAmd" class="CoreTest" file="D:\Development\Repositories\GIT\wp-amd\test\php\tests\plugin\coreTest.php" line="13" assertions="2" time="0.050061"/>
+      <testcase name="testInstance" class="CoreTest" file="D:\Development\Repositories\GIT\wp-amd\test\php\tests\plugin\coreTest.php" line="23" assertions="1" time="0.018214"/>
+      <testcase name="testClasses" class="CoreTest" file="D:\Development\Repositories\GIT\wp-amd\test\php\tests\plugin\coreTest.php" line="31" assertions="3" time="0.016312"/>
+      <testcase name="testGetSettings" class="CoreTest" file="D:\Development\Repositories\GIT\wp-amd\test\php\tests\plugin\coreTest.php" line="41" assertions="3" time="0.012694"/>
+      <testcase name="testSetSettings" class="CoreTest" file="D:\Development\Repositories\GIT\wp-amd\test\php\tests\plugin\coreTest.php" line="51" assertions="1" time="0.018812"/>
+    </testsuite>
+    <testsuite name="ScriptTest" file="D:\Development\Repositories\GIT\wp-amd\test\php\tests\plugin\scriptTest.php" tests="4" assertions="31" failures="0" errors="0" time="0.241805">
+      <testcase name="testPobj" class="ScriptTest" file="D:\Development\Repositories\GIT\wp-amd\test\php\tests\plugin\scriptTest.php" line="74" assertions="2" time="0.023695"/>
+      <testcase name="testRegisterPostType" class="ScriptTest" file="D:\Development\Repositories\GIT\wp-amd\test\php\tests\plugin\scriptTest.php" line="85" assertions="4" time="0.024852"/>
+      <testcase name="testActions" class="ScriptTest" file="D:\Development\Repositories\GIT\wp-amd\test\php\tests\plugin\scriptTest.php" line="104" assertions="9" time="0.014128"/>
+      <testcase name="testAsset" class="ScriptTest" file="D:\Development\Repositories\GIT\wp-amd\test\php\tests\plugin\scriptTest.php" line="132" assertions="16" time="0.179130"/>
+    </testsuite>
+    <testsuite name="StyleTest" file="D:\Development\Repositories\GIT\wp-amd\test\php\tests\plugin\styleTest.php" tests="4" assertions="27" failures="0" errors="0" time="0.208780">
+      <testcase name="testPobj" class="StyleTest" file="D:\Development\Repositories\GIT\wp-amd\test\php\tests\plugin\styleTest.php" line="74" assertions="2" time="0.016632"/>
+      <testcase name="testRegisterPostType" class="StyleTest" file="D:\Development\Repositories\GIT\wp-amd\test\php\tests\plugin\styleTest.php" line="85" assertions="4" time="0.016376"/>
+      <testcase name="testActions" class="StyleTest" file="D:\Development\Repositories\GIT\wp-amd\test\php\tests\plugin\styleTest.php" line="104" assertions="9" time="0.018523"/>
+      <testcase name="testAsset" class="StyleTest" file="D:\Development\Repositories\GIT\wp-amd\test\php\tests\plugin\styleTest.php" line="132" assertions="12" time="0.157249"/>
+    </testsuite>
+  </testsuite>
+</testsuites>

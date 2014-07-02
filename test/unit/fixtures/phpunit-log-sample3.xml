@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="" tests="16" assertions="70" failures="2" errors="0" time="0.658092">
+    <testsuite name="Basic" tests="3" assertions="4" failures="1" errors="0" time="0.074293">
+      <testsuite name="BasicTest" file="D:\Development\Repositories\GIT\wp-amd\test\php\tests\basic\basicTest.php" tests="3" assertions="4" failures="1" errors="0" time="0.074293">
+        <testcase name="testTrue" class="BasicTest" file="D:\Development\Repositories\GIT\wp-amd\test\php\tests\basic\basicTest.php" line="32" assertions="1" time="0.019768">
+          <failure type="PHPUnit_Framework_ExpectationFailedException">BasicTest::testTrue
+Failed asserting that false is true.
+
+D:\Development\Repositories\GIT\wp-amd\test\php\tests\basic\basicTest.php:33
+</failure>
+        </testcase>
+        <testcase name="testGlobals" class="BasicTest" file="D:\Development\Repositories\GIT\wp-amd\test\php\tests\basic\basicTest.php" line="41" assertions="2" time="0.037259"/>
+        <testcase name="testGlobalsBar" class="BasicTest" file="D:\Development\Repositories\GIT\wp-amd\test\php\tests\basic\basicTest.php" line="60" assertions="1" time="0.017266"/>
+      </testsuite>
+    </testsuite>
+    <testsuite name="Plugin" tests="13" assertions="66" failures="1" errors="0" time="0.583799">
+      <testsuite name="CoreTest" file="D:\Development\Repositories\GIT\wp-amd\test\php\tests\plugin\coreTest.php" tests="5" assertions="8" failures="1" errors="0" time="0.095265">
+        <testcase name="testGetWpAmd" class="CoreTest" file="D:\Development\Repositories\GIT\wp-amd\test\php\tests\plugin\coreTest.php" line="13" assertions="2" time="0.052468"/>
+        <testcase name="testInstance" class="CoreTest" file="D:\Development\Repositories\GIT\wp-amd\test\php\tests\plugin\coreTest.php" line="23" assertions="1" time="0.007290"/>
+        <testcase name="testClasses" class="CoreTest" file="D:\Development\Repositories\GIT\wp-amd\test\php\tests\plugin\coreTest.php" line="31" assertions="1" time="0.017284">
+          <failure type="PHPUnit_Framework_ExpectationFailedException">CoreTest::testClasses
+Failed asserting that false is true.
+
+D:\Development\Repositories\GIT\wp-amd\test\php\tests\plugin\coreTest.php:32
+</failure>
+        </testcase>
+        <testcase name="testGetSettings" class="CoreTest" file="D:\Development\Repositories\GIT\wp-amd\test\php\tests\plugin\coreTest.php" line="41" assertions="3" time="0.010445"/>
+        <testcase name="testSetSettings" class="CoreTest" file="D:\Development\Repositories\GIT\wp-amd\test\php\tests\plugin\coreTest.php" line="51" assertions="1" time="0.007778"/>
+      </testsuite>
+      <testsuite name="ScriptTest" file="D:\Development\Repositories\GIT\wp-amd\test\php\tests\plugin\scriptTest.php" tests="4" assertions="31" failures="0" errors="0" time="0.275365">
+        <testcase name="testPobj" class="ScriptTest" file="D:\Development\Repositories\GIT\wp-amd\test\php\tests\plugin\scriptTest.php" line="74" assertions="2" time="0.021350"/>
+        <testcase name="testRegisterPostType" class="ScriptTest" file="D:\Development\Repositories\GIT\wp-amd\test\php\tests\plugin\scriptTest.php" line="85" assertions="4" time="0.029016"/>
+        <testcase name="testActions" class="ScriptTest" file="D:\Development\Repositories\GIT\wp-amd\test\php\tests\plugin\scriptTest.php" line="104" assertions="9" time="0.008997"/>
+        <testcase name="testAsset" class="ScriptTest" file="D:\Development\Repositories\GIT\wp-amd\test\php\tests\plugin\scriptTest.php" line="132" assertions="16" time="0.216002"/>
+      </testsuite>
+      <testsuite name="StyleTest" file="D:\Development\Repositories\GIT\wp-amd\test\php\tests\plugin\styleTest.php" tests="4" assertions="27" failures="0" errors="0" time="0.213169">
+        <testcase name="testPobj" class="StyleTest" file="D:\Development\Repositories\GIT\wp-amd\test\php\tests\plugin\styleTest.php" line="74" assertions="2" time="0.020914"/>
+        <testcase name="testRegisterPostType" class="StyleTest" file="D:\Development\Repositories\GIT\wp-amd\test\php\tests\plugin\styleTest.php" line="85" assertions="4" time="0.025863"/>
+        <testcase name="testActions" class="StyleTest" file="D:\Development\Repositories\GIT\wp-amd\test\php\tests\plugin\styleTest.php" line="104" assertions="9" time="0.018659"/>
+        <testcase name="testAsset" class="StyleTest" file="D:\Development\Repositories\GIT\wp-amd\test\php\tests\plugin\styleTest.php" line="132" assertions="12" time="0.147733"/>
+      </testsuite>
+    </testsuite>
+  </testsuite>
+</testsuites>

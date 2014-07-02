@@ -1,0 +1,23 @@
+{f} Suite Basic - BasicTest, test BasicTest::testTrue failed. 1 assertion: 0.019768ms
+    <red>Failure: BasicTest::testTrue. Failed asserting that false is true. D:\Development\Repositories\GIT\wp-amd\test\php\tests\basic\basicTest.php:33</red>
+{s} Suite Basic - BasicTest, test BasicTest::testGlobals completed. 2 assertions: 0.055203ms
+{s} Suite Basic - BasicTest, test BasicTest::testGlobalsBar completed. 1 assertion: 0.050061ms
+
+{s} Suite Plugin - CoreTest, test CoreTest::testGetWpAmd completed. 2 assertions: 0.050061ms
+{s} Suite Plugin - CoreTest, test CoreTest::testInstance completed. 1 assertion: 0.018214ms
+{f} Suite Plugin - CoreTest, test CoreTest::testClasses failed. 1 assertion: 0.016312ms
+    <red>Failure: CoreTest::testClasses. Failed asserting that false is true. D:\Development\Repositories\GIT\wp-amd\test\php\tests\plugin\coreTest.php:32</red>
+{s} Suite Plugin - CoreTest, test CoreTest::testGetSettings completed. 3 assertions: 0.012694ms
+{s} Suite Plugin - CoreTest, test CoreTest::testSetSettings completed. 1 assertion: 0.018812ms
+
+{s} Suite Plugin - ScriptTest, test ScriptTest::testPobj completed. 2 assertions: 0.023695ms
+{s} Suite Plugin - ScriptTest, test ScriptTest::testRegisterPostType completed. 4 assertions: 0.024852ms
+{s} Suite Plugin - ScriptTest, test ScriptTest::testActions completed. 9 assertions: 0.014128ms
+{s} Suite Plugin - ScriptTest, test ScriptTest::testAsset completed. 16 assertions: 0.179130ms
+
+{s} Suite Plugin - StyleTest, test StyleTest::testPobj completed. 2 assertions: 0.016632ms
+{s} Suite Plugin - StyleTest, test StyleTest::testRegisterPostType completed. 4 assertions: 0.016376ms
+{s} Suite Plugin - StyleTest, test StyleTest::testActions completed. 9 assertions: 0.018523ms
+{s} Suite Plugin - StyleTest, test StyleTest::testAsset completed. 12 assertions: 0.157249ms
+
+{f} PHPUnit tests failed. 16 tests, 70 assertions, 2 failures: 0.658092ms
